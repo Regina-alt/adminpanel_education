@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Подключаю шрифт */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 15px;                         
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form_avtoriz{
+    display: flex;                     
+    flex-direction: column; 
+    width: 410px;
+    color: #333;                       
+    background: #ecf0f3;                 
+    font-size: 15px;                   
+    height: 35%;                   
+    padding: 40px;                                    
+    border: none;                         
+    border-radius: 50px;                 
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #fff; 
+    transition: all 0.3s ease 0s;         
+}
+
+
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 1px solid #e3e3e3;
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+    
+}
+
+button:hover {
+	background: pink;
+}
+
+a{
+    color: blue;                   
+    text-decoration: none;               
+}
+
+a:hover{
+    color: violet;                   
+    text-decoration: none;              
+}
+
+body{
+    background: linear-gradient(to right, rgb(138, 79, 143), pink); /* Заднний фон устанавливаю в виде градиента */
+    
+}
+
+.form_reg{
+    display: flex;                        
+    flex-direction: column; 
+    width: 410px;
+    color: #333;                        
+    background: #ecf0f3;                 
+    font-size: 15px;                       
+    height: 60%;                       
+    padding: 40px;                            
+    border: none;                         
+    border-radius: 50px;                   
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #fff;      
+    transition: all 0.3s ease 0s;          
+}
+
+.profile{
+    display: flex;                         
+    flex-direction: column; 
+    width: 410px;
+    color: #333;                         
+    background: #ecf0f3;                 
+    font-size: 15px;                      
+    height: 35%;                           
+    padding: 40px;                                      
+    border: none;                          
+    border-radius: 50px;                  
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #fff; 
+    transition: all 0.3s ease 0s;         
+}
